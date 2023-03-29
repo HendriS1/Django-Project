@@ -17,13 +17,13 @@ project. It gives the user the basic setup of a Django app to expand on.
 ## 3. Installing pip
 ### Unix/macOS:
 Debian and most other distributions include a python-pip package. Recommend 
-installing pip yourself to insure the latest version.
-python3 -m pip install --user --upgrade pip
+installing pip yourself to insure the latest version.   
+python3 -m pip install --user --upgrade pip   
 python3 -m pip --version
 ### Windows:
 The Python installers for windows include pip. You can make sure that pip is 
-up to date by running the following.
-py -m pip install --upgrade pip
+up to date by running the following.   
+py -m pip install --upgrade pip   
 py -m pip --version
 ## 4. Setting up Virtual Inviroment
 ### Unix/macOS:
@@ -31,8 +31,8 @@ python3 -m pip install --user virtualenv
 ### Windows:
 py -m pip install --user virtualenv
 ## 5. Adding Repository to Local Repository
-Clone the repository from Github and then switch to the new Directory.
-git clone https://github.com/HendriS1/Django-Project.git
+Clone the repository from Github and then switch to the new Directory.   
+git clone https://github.com/HendriS1/Django-Project.git   
 cd Django-Project
 ## 6. Start Django App
 ### Activate the vertualenv for your project.
