@@ -44,4 +44,4 @@ py -m venv /path/to/directory
 python manage.py migrate
 ### Run the Development Server
 python manage.py runserver
-![](Screenshots/%202023-03-30%20011728.png)
+![](Screenshots/Screenshot%202023-03-30%20011728.png)
