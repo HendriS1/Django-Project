@@ -30,6 +30,17 @@ py -m pip --version
 python3 -m pip install --user virtualenv
 ### Windows:
 py -m pip install --user virtualenv
-## Adding Repository to Local Repository
+## 5. Adding Repository to Local Repository
 Clone the repository from Github and then switch to the new Directory.
-
+git clone https://github.com/HendriS1/Django-Project.git
+cd Django-Project
+## 6. Start Django App
+### Activate the vertualenv for your project.
+#### Unix/macOS:
+python3 -m venv /path/to/directory
+#### Windows:
+py -m venv /path/to/directory
+### Apply migrations for the Django app.
+python manage.py migrate
+### Run the Development Server
+python manage.py runserver
